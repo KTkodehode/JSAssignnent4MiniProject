@@ -3,7 +3,7 @@ document.body.style="margin:0;background-repeat: no-repeat; background-size: cov
 document.getElementById("top-title").onmouseover = function() {onmouseOver()};
 document.getElementById("top-title").onmouseleave = function() {onmouseLeave()};
 document.getElementById("top-title").style = "text-align: center;"
-document.getElementById("input-field").style = "text-align:center; transform:scale(2);"
+document.getElementById("input-field").style = "text-align:center; transform:scale(1);"
 document.getElementById("btn-push").style = "border-radius: 10px; width: 80px; height: 25px;"
 
 function onmouseOver(){
@@ -29,8 +29,23 @@ function pushData() {
 	let node = document.createTextNode(inputText); // create a text node and append it to the document
 	newItem.appendChild(node); // List inserts user's input text
 	view.appendChild(newItem); // Targets output and lists it in the new created element (list)
+
 }
-	
+
+// var throttle = false;
+// document.querySelector("div").addEventListener('click', function (evt) {
+//     if (!throttle && evt.detail === 3) {
+//         document.getElementById("tull").textContent = 'Triple-clicked!';
+//         throttle = true;
+//     } 
+// });
+
+
+
+
+
+
+
 
 
 
