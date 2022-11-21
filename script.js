@@ -40,22 +40,10 @@ function pushData() {
 //     } 
 // });
 
-
-
-
-
-
-
-
-
-
-
 // // html override?
 // let h1 = document.createElement("h1");                 // Creates a h1 element
 // h1.append(document.createTextNode("Hello"));     // Moves the h1 element to a text node
 // document.body.appendChild(h1).style="color:green; font-size: 80px; text-align:center; letter-spacing: 10px;";  // Moves the elemt to the HTML body
-
-
 
 
 // let h2 = document.createElement("h2");
@@ -68,7 +56,6 @@ function pushData() {
 
 // document.getElementById("btn-container").style="position:relative; height: 300px;"
 // document.getElementById("btn").style="border-radius: 5%; font-size: 30px; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);";
-
 
 // document.getElementById("top-title").style="text-align:center; margin-top: 200px;"
 
