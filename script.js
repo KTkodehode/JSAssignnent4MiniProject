@@ -1,11 +1,10 @@
 document.body.style="margin:0;background-repeat: no-repeat; background-size: cover; background-image: url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80); margin:0";
 
-
-
 document.getElementById("top-title").onmouseover = function() {onmouseOver()};
 document.getElementById("top-title").onmouseleave = function() {onmouseLeave()};
 document.getElementById("top-title").style = "text-align: center;"
-document.getElementById("input-field").style = "text-align:center;"
+document.getElementById("input-field").style = "text-align:center; transform:scale(2);"
+document.getElementById("btn-push").style = "border-radius: 10px; width: 80px; height: 25px;"
 
 function onmouseOver(){
     document.getElementById("top-title").style = "color: white; text-align: center;"
@@ -30,14 +29,8 @@ function pushData() {
 	let node = document.createTextNode(inputText); // create a text node and append it to the document
 	newItem.appendChild(node); // List inserts user's input text
 	view.appendChild(newItem); // Targets output and lists it in the new created element (list)
-    
-	if (newItem === [10]){
-		let stop = document.getElementById("tull");
-		stop.document.write("Hey");
-	}
 }
-
-
+	
 
 
 
