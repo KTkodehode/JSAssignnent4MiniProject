@@ -1,3 +1,6 @@
+// Math.Random function
+// 
+
 document.body.style="margin:0;background-repeat: no-repeat; background-size: cover; background-image: url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80); margin:0";
 
 document.getElementById("top-title").onmouseover = function() {onmouseOver()};
@@ -32,13 +35,13 @@ function pushData() {
 
 }
 
-// var throttle = false;
-// document.querySelector("div").addEventListener('click', function (evt) {
-//     if (!throttle && evt.detail === 3) {
-//         document.getElementById("tull").textContent = 'Triple-clicked!';
-//         throttle = true;
-//     } 
-// });
+
+document.querySelector("div").addEventListener('click', function () {
+ 
+	
+        document.getElementById("tull").textContent = 'Triple-clicked!';
+    } 
+)
 
 // // html override?
 // let h1 = document.createElement("h1");                 // Creates a h1 element
