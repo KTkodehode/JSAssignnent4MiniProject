@@ -13,10 +13,35 @@
       <h1 id="top-title">Shopping List:</h1>
       <div id="input-field">
         <input type="text" name="text" id="inputText" placeholder="Add item" />
-        <button id="btn-push" onclick="pushData();">Add</button>
       </div>
+      <div id="right-sides">
+        Books
+        <select id="selectorBooks">
+          <option id="firstOpt">This Book</option>
+          <option id="secondOpt">That Book</option>
+          <option id="thirdOpt">Other Book</option>
+          <option id="fourthOpt">More Book</option>
+        </select>
+        <div id="right-side"></div>
+        <img id="right-img" />
+      </div>
+      <button id="btn-push" onclick="pushData();">Add</button>
+      <button id="btn-clear" onclick="clearList();">Clear List</button>
       <ul id="view"></ul>
-      <p id="tull"></p>
+      <!-- <div id="clickedXamount"></div> -->
     </div>
+
+    <!-- <select name="optionType" onchange="renderImage()" id="selectOption">
+      <option value="" hidden selected></option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+    <img
+      id="myImg"
+      src="https://giphy.com/embed/duNowzaVje6Di3hnOu/"
+      width="480"
+      height="320"
+    /> -->
   </body>
 </html>
