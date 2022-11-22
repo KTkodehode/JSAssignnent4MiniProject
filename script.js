@@ -36,26 +36,35 @@ function pushData() {
 }
 
 
+
 document.querySelector("div").addEventListener('click', function () {
  
-	
-        document.getElementById("tull").textContent = 'Triple-clicked!';
+        // document.getElementById("tull").textContent = 'Speed Adder!';
     } 
 )
 
-// // html override?
-// let h1 = document.createElement("h1");                 // Creates a h1 element
-// h1.append(document.createTextNode("Hello"));     // Moves the h1 element to a text node
-// document.body.appendChild(h1).style="color:green; font-size: 80px; text-align:center; letter-spacing: 10px;";  // Moves the elemt to the HTML body
+// html override?
+let h1 = document.createElement("h1");                 // Creates a h1 element
+h1.append(document.createTextNode("Hello"));     // Moves the h1 element to a text node
+document.body.prepend(h1).style="color:green; text-align: center;";  // Moves the elemt to the HTML body
+
+
+
+
+let canvas = document.createElement("CANVAS");
+canvas.id = "canvasId";
+document.body.appendChild(canvas);
+document.getElementById("canvasBox").appendChild(canv);
+
 
 
 // let h2 = document.createElement("h2");
 // h2.append(document.createTextNode("Shopping List: "));
-// document.body.appendChild(h2).style="color:white";                 // must use appendChild to style
+// document.body.prepend(h2).style="color:white";                 // must use appendChild to style
 
-// const paragraph = document.body.appendChild(document.createElement('p'));
+// const paragraph = document.body.prepend(document.createElement('p'));
 // paragraph.append(document.createTextNode("Help"));
-// document.body.appendChild(paragraph).style="font-size: 30px;"
+// document.body.prepend(paragraph).style="font-size: 30px;"
 
 // document.getElementById("btn-container").style="position:relative; height: 300px;"
 // document.getElementById("btn").style="border-radius: 5%; font-size: 30px; position: absolute; top:50%; left:50%; transform: translate(-50%, -50%);";
